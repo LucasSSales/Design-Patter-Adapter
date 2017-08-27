@@ -32,11 +32,11 @@ public class Robot {
 	}
 	
 	public void tryFeel() {
-		System.out.println(code + " is tring to feel, but it's not working");
+		System.out.println(code + " is tring to feel, but it's not working yet");
 	}
 	
 	public void locomove() {
-		System.out.println(code + " is locomoving");
+		System.out.println(code + " is locomoving by wheels");
 	}
 	
 	public void rust() {

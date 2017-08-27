@@ -9,6 +9,7 @@ public class Main {
         Human myself = new Person("Lucas Sales", 19);
 
         myself.think();
+        myself.feel();
         myself.age();
         myself.move();
         
@@ -17,6 +18,7 @@ public class Main {
         Human stone = new StoneAdapter(new Stone("granite", 25));
 
         stone.think();
+        stone.feel();
         stone.age();
         stone.move();
         
@@ -25,6 +27,7 @@ public class Main {
         Human robot = new RobotAdapter(new Robot("LSS098", 2025));
         
         robot.think();
+        robot.feel();
         robot.age();
         robot.move();
         
