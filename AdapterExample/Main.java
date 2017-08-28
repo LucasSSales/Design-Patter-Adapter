@@ -6,6 +6,7 @@ package Adapter;
 public class Main {
 
     public static void main(String[] args) {
+    	System.out.println("CODE WITH ADAPTER");
         Human myself = new Person("Lucas Sales", 19);
 
         myself.think();
