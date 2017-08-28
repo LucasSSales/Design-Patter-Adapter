@@ -8,4 +8,6 @@ public interface Human {
     public int getAge();
     public void think();
     public void feel();
+    public void move();
+    public void age();
 }
