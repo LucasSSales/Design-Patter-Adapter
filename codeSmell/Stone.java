@@ -29,15 +29,6 @@ public class Stone implements Human {
         return type;
     }
     
-    public void stay() {
-    	System.out.println(type + " stays where it is");
-    }
-    
-    public void erosion(){
-    	System.out.println("The "+ type + " is suffering erosion");
-    }
-    
-
     @Override
     public String getName() {
         return getType();
@@ -57,16 +48,5 @@ public class Stone implements Human {
     public void feel() {
         smash();
     }
-
-	@Override
-	public void move() {
-		stay();
-	}
-
-	@Override
-	public void age() {
-		erosion();
-	}
-    
 }
 

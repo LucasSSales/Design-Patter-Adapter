@@ -11,8 +11,6 @@ public class Main {
 
         myself.think();
         myself.feel();
-        myself.age();
-        myself.move();
         
         System.out.println("");
         
@@ -20,17 +18,13 @@ public class Main {
 
         stone.think();
         stone.feel();
-        stone.age();
-        stone.move();
         
         System.out.println("");
         
-        Human robot = new Robot("LSS098", 2025);
+        Human robot = new Robot("LSS097", 2025);
         
         robot.think();
         robot.feel();
-        robot.age();
-        robot.move();
         
     }
 }

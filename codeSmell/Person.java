@@ -32,16 +32,4 @@ public class Person implements Human {
     public void feel() {
         System.out.println(name + " has feelings and emotions");
     }
-
-	@Override
-	public void move() {
-		System.out.println(getName() + " is moving by feet");
-		
-	}
-
-	@Override
-	public void age() {
-		System.out.println("In "+(60-age)+" years, "+name+" will be old");
-		
-	}
 }
