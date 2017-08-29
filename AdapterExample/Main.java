@@ -21,7 +21,7 @@ public class Main {
        
         System.out.println("");
         
-        Human robot = new RobotAdapter(new Robot("LSS098", 2025));
+        Human robot = new RobotAdapter(new Robot("LSS097", 2025));
         
         robot.think();
         robot.feel();
