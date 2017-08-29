@@ -30,16 +30,4 @@ public class StoneAdapter implements Human {
     public void feel() {
         stone.smash();
     }
-
-	@Override
-	public void move() {
-		stone.stay();
-		
-	}
-
-	@Override
-	public void age() {
-		stone.erosion();
-		
-	}
 }

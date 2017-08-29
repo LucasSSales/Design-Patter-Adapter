@@ -27,17 +27,4 @@ public class RobotAdapter implements Human {
 	public void feel() {
 		robot.tryFeel();
 	}
-
-	@Override
-	public void move() {
-		robot.locomove();
-	}
-
-	@Override
-	public void age() {
-		robot.rust();
-	}
-	
-	
-	
 }

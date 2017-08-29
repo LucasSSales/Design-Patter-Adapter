@@ -32,15 +32,6 @@ public class Robot {
 	}
 	
 	public void tryFeel() {
-		System.out.println(code + " is tring to feel, but it's not working yet");
-	}
-	
-	public void locomove() {
-		System.out.println(code + " is locomoving by wheels");
-	}
-	
-	public void rust() {
-		System.out.println("Until " + shelfLife + ", " + code + " is getting rusty");
-	}
-	
+		System.out.println(code + " is tring to feel, but it's not working and he will die until "+ shelfLife);
+	}	
 }

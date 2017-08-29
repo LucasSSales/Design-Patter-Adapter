@@ -27,13 +27,5 @@ public class Stone {
     public String getType() {
         return type;
     }
-    
-    public void stay() {
-    	System.out.println(type + " stays where it is");
-    }
-    
-    public void erosion(){
-    	System.out.println("The "+ type + " is suffering erosion");
-    }
 }
 
